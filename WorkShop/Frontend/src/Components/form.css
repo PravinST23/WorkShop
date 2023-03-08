@@ -1,0 +1,73 @@
+form{
+    font-family:Garamond;
+    height: 100vh;
+    margin-left: 400px;
+    width: 50%;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: center;
+    border-radius: 40px;
+    background-image: url("D:\book\1692725.jpg");
+         background-size: cover;
+}
+h2{
+    font-size:80px;
+    font-family:Garamond;
+}
+input{
+    font-family:Garamond;
+    font-weight: lighter;
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 30px;
+    margin-top: 20px;
+    padding: 5px;
+    border-top: none;
+    border-left: none;
+    font-size: 20px;
+    border-radius: 10px;
+    font-size: 15px;
+    border:2px rgb(19, 19, 19) solid;
+}
+input::placeholder {
+    font-family:Garamond;
+    display: flex;
+    color:rgb(90, 84, 84);
+    font-size: 15px;
+  }
+
+button{
+    font-family:Garamond;
+    margin-top: 30px;
+    color: rgb(247, 243, 243);
+    background-color: #0a0a0a;
+    cursor: pointer;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 10px;
+    border-radius: 10px;
+    
+}
+.back{
+    font-family:Garamond;
+    margin-top: 20px;
+    background: 'transparent';
+
+}
+.table{
+    font-family:Garamond;
+    display: flex;
+    text-align: center;
+    padding: 40px;
+    margin-top: 40px;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+th{
+    padding: 15px;
+}
